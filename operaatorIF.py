@@ -5,7 +5,7 @@ bussid = inim // kohad
 vbuss = inim % kohad
 if vbuss:
     bussid += 1
-print(f"vaja on {bussid} bussi, viimases bussis on {vbuss if vbuss else kohad} inimest.")
+print(f"vaja on {bussid} bussi, viimases bussis on {vbuss if vbuss else kohad} inimest")
 
 
 #13 ulesanne
