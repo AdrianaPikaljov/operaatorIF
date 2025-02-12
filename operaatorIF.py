@@ -1,3 +1,5 @@
+
+
 #14 ulesanne
 inim = int(input("sisesta inimeste arv: "))
 kohad = int(input("sisesta bussi kohtade arv: "))
@@ -112,19 +114,24 @@ if remont == "jah":
     print("tuleb remontida")
     rmhind = float(input("sisesta ruutmeetri hind: "))
     print(f"remont maksab {pindala * rmhind} eurot")
+else: 
+        print("ei ole vaja remonti teha")
 
-
-#2 ulesanne
+2 ulesanne
 nimi1 = input("sisesta nimi: ")
 nimi2 = input("sisesta nimi: ")
-if nimi1.isalpha() and nimi2.isalpha():
-    print("super vy pinginaabrid")
+nimi3 = input("sisesta nimi: ")
+if nimi1.isalpha() and nimi2.isalpha() and nimi3.isalpha():
+    if  nimi1 == "eldar": 
+        if nimi2 == "adri":
+           if nimi3 == "nastja": 
+               print("super vy pinginaabrid")
 else:
     print("oneet vy ne pinginaabrid")
 
 
 
-#1 ulesanne
+1 ulesanne
 nimi = input("Sisesta nimi: ")
 if nimi.isupper() and nimi == "JUKU":
     print("lähme kinno")
