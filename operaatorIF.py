@@ -108,7 +108,6 @@ pindala = laius * pikkus
 
 print(f"pindala on {pindala} ruutmeetrit") 
 remont = input("kas on vaja remonti teha? ")
-#siin võib ka kasutada islower() funktsiooni tagastab True, kui kõik tähemärgid on väiketähtedega, vastasel juhul False.
 if remont == "jah":
     print("tuleb remontida")
     rmhind = float(input("sisesta ruutmeetri hind: "))
