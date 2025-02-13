@@ -121,11 +121,11 @@ else:
 nimi1 = input("sisesta nimi: ")
 nimi2 = input("sisesta nimi: ")
 nimi3 = input("sisesta nimi: ")
-if nimi1.isalpha() and nimi2.isalpha() and nimi3.isalpha():
-    if  nimi1 == "eldar": 
-        if nimi2 == "adri":
-           if nimi3 == "nastja": 
-               print("super vy pinginaabrid")
+nimed = {nimi1, nimi2, nimi3}
+
+if all(nimi.isalpha() for nimi in nimed):
+    if {"eldar", "adri", "nastja"} == nimed:
+        print("super vy pinginaabrid")
 else:
     print("oneet vy ne pinginaabrid")
 
