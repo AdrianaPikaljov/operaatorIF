@@ -1,4 +1,19 @@
+#8 ulesanne 
+import random
 
+tooted = ["piim", "sai", "leib"]
+hinnad = {toode: round(random.uniform(0.5, 5.0), 2) for toode in tooted}
+kokku = 0
+
+print("Tere tulemast poodi!")
+for toode in tooted:
+    if input(f"Kas soovite osta {toode}? (jah/ei): ").strip().lower() == "jah":
+        kogus = int(input(f"Mitu tükki {toode} soovite?: "))
+        hind = hinnad[toode] * kogus
+        kokku += hind
+        print(f"{toode.capitalize()}: {kogus} tk x {hinnad[toode]}€ = {hind:.2f}€")
+
+print(f"Kokku: {kokku:.2f}€")
 
 #14 ulesanne
 inim = int(input("sisesta inimeste arv: "))
