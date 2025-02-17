@@ -132,7 +132,7 @@ if remont == "jah":
 else: 
         print("ei ole vaja remonti teha")
 
-2 ulesanne
+#2 ulesanne
 nimi1 = input("sisesta nimi: ")
 nimi2 = input("sisesta nimi: ")
 nimi3 = input("sisesta nimi: ")
@@ -146,7 +146,7 @@ else:
 
 
 
-1 ulesanne
+#1 ulesanne
 nimi = input("Sisesta nimi: ")
 if nimi.isupper() and nimi == "JUKU":
     print("lähme kinno")
