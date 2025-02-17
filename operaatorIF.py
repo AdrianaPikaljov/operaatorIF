@@ -8,7 +8,7 @@ kokku = 0
 print("Tere tulemast poodi!")
 for toode in tooted:
     if input(f"Kas soovite osta {toode}? (jah/ei): ").strip().lower() == "jah":
-        kogus = int(input(f"Mitu tükki {toode} soovite?: "))
+        kogus = int(input(f"mitu tk {toode} soovite?: "))
         hind = hinnad[toode] * kogus
         kokku += hind
         print(f"{toode.capitalize()}: {kogus} tk x {hinnad[toode]}€ = {hind:.2f}€")
