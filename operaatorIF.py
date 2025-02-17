@@ -5,7 +5,7 @@ tooted = ["piim", "sai", "leib"]
 hinnad = {toode: round(random.uniform(0.5, 5.0), 2) for toode in tooted}
 kokku = 0
 
-print("Tere tulemast poodi!")
+print("salam prohodite v poodi!")
 for toode in tooted:
     if input(f"Kas soovite osta {toode}? (jah/ei): ").strip().lower() == "jah":
         kogus = int(input(f"mitu tk {toode} soovite?: "))
